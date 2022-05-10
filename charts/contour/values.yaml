@@ -1,3 +1,5 @@
+app: contour-prod
+
 contour:
   ## @section Global parameters
   ## Global Docker image parameters
