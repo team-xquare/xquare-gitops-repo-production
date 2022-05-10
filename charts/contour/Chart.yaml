@@ -1,0 +1,12 @@
+apiVersion: v2
+name: contour-prod
+description: A Helm chart for contour
+
+type: application
+
+version: 0.1.0
+
+dependencies:
+  - name: contour
+    version: 7.8.0
+    repository: https://charts.bitnami.com/bitnami

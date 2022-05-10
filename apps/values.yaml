@@ -1,0 +1,9 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+
+  project: xquare-prod
+
+  source:
+    repoURL: https://github.com/team-xquare/xquare-gitops-repo-production.git
+    targetRevision: HEAD
