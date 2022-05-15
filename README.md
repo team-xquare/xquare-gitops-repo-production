@@ -20,21 +20,24 @@
 ### ArgoCD
 
 **Host**: argocd.xquare.app
-![argocd-dashboard](./images/argocd-dashboard.jpg)
-![argocd-example1](./images/argocd-example1.jpg)
+
+- dash board
+  ![argocd-dashboard](./images/argocd-dashboard.jpg)
+- dms backend service example
+  ![argocd-example1](./images/argocd-dms-be-prod.jpg)
 
 ### 현재 XQUARE 프로젝트의 서비스 종류
 
 **Host** : api.xquare.app
 | service | prefix |
 |---------|--------|
-| user | /users |
-| meal | /meals |
-| timetable | /timetables |
-| schedules | /schedules |
-| apply | /application |
-| point | /points |
-| notify | /notifications |
-| feed | /feeds |
-| authority | /authorities |
-| dormitory manage | /dms |
+| 유저 서비스 | /users |
+| 급식 서비스 | /meals |
+| 시간표 서비스 | /timetables |
+| 학과 일정 서비스 | /schedules |
+| 신청 서비스 | /application |
+| 상벌점 서비스 | /points |
+| 알림 서비스 | /notifications |
+| 피드 서비스 | /feeds |
+| 권한 서비스 | /authorities |
+| 기숙사 관리 서비스 | /dms |
