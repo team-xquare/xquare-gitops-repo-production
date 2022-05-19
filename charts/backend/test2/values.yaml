@@ -1,0 +1,14 @@
+app: 
+  fullName: test2-backend-production
+  name: test2
+  type: backend
+  env: production
+
+container:
+  port: 8080
+  image:
+    registry: registry.hub.docker.com
+    version: latest
+
+
+host: default.xquare.app
