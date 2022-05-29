@@ -1,7 +1,0 @@
-app: dms-be-prod
-container:
-  image:
-    registry: registry.hub.docker.com
-    version: v0.1.0-alpha
-
-host: api.xquare.app

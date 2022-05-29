@@ -35,7 +35,7 @@
 | 급식 서비스 | /meals |
 | 시간표 서비스 | /timetables |
 | 학과 일정 서비스 | /schedules |
-| 신청 서비스 | /application |
+| 신청 서비스 | /applications |
 | 상벌점 서비스 | /points |
 | 알림 서비스 | /notifications |
 | 피드 서비스 | /feeds |

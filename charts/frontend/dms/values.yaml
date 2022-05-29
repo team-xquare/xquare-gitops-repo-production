@@ -1,7 +1,0 @@
-app: dms-fe-prod
-container:
-  image:
-    registry: registry.hub.docker.com
-    version: 0.1
-
-host: admin.xquare.app
