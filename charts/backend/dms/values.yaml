@@ -1,0 +1,18 @@
+app: 
+  fullName: dms-backend-prod
+  name: dms
+  type: backend
+  env: prod
+
+container:
+  port: 8080
+  image:
+    registry: registry.hub.docker.com
+    version: latest
+
+ingress:
+  prefix: /dms
+
+
+host: prod-api.xquare.app
+
