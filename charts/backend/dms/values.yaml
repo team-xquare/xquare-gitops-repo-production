@@ -14,5 +14,5 @@ ingress:
   prefix: /dms
 
 
-host: staging-api.xquare.app
+host: api.xquare.app
 
