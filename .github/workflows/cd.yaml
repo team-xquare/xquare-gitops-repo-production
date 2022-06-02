@@ -13,7 +13,7 @@ jobs:
         if: ${{ github.event.client_payload.version }}
         run: |
           sed -i "s@\(.*version:\).*@\1 ${{ github.event.client_payload.version }}@" ${GITHUB_WORKSPACE}/charts/${{github.event.client_payload.service_type}}/${{github.event.client_payload.service_name}}/values.yaml
-          sed -i "s@\(.*\"ImageTag\":\).*@\1 \"${{ github.event.client_payload.version }}@\"," ${GITHUB_WORKSPACE}/resource/app-${{github.event.client_payload.service_name}}-${{github.event.client_payload.service_type}}.json
+          sed -i "s@\(.*\"ImageTag\":\).*@\1 \"${{ github.event.client_payload.version }}\",@" ${GITHUB_WORKSPACE}/resource/app-${{github.event.client_payload.service_name}}-${{github.event.client_payload.service_type}}.json
       
       - name: Commit The New Image Reference
         uses: stefanzweifel/git-auto-commit-action@v4
