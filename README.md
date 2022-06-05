@@ -6,7 +6,7 @@
 
 ## Dependencies
 
-- k8s version: v1.23.6
+- kubeadm, kubelet, kubectl version: v1.24.1
 - Container Runtime Interface: [CRI-O](https://cri-o.io/)
 - Container Network Interface: [Calico](https://www.tigera.io/project-calico/)
 - Cgroup: Systemd
