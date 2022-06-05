@@ -1,0 +1,18 @@
+app: 
+  fullName: apply-fe-prod
+  name: apply
+  type: fe
+  env: prod
+
+container:
+  port: 3000
+  image:
+    registry: registry.hub.docker.com
+    version: latest
+
+ingress:
+  prefix: /apply
+
+
+host: service.xquare.app
+
