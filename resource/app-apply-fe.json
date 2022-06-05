@@ -2,7 +2,7 @@
   "Name": "apply",
   "Host": "service.xquare.app",
   "ImageRegistry": "registry.hub.docker.com",
-  "ImageTag": "service",
+  "ImageTag": "0.0.0",
   "ContainerPort": 3000,
   "Prefix": "/apply",
   "Environment": "prod",
