@@ -1,0 +1,18 @@
+app: 
+  fullName: meal-be-prod
+  name: meal
+  type: be
+  env: prod
+
+container:
+  port: 3000
+  image:
+    registry: registry.hub.docker.com
+    version: latest
+
+ingress:
+  prefix: /meal
+
+
+host: app.xquare.app
+

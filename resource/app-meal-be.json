@@ -1,0 +1,10 @@
+{
+  "Name": "meal",
+  "Host": "app.xquare.app",
+  "ImageRegistry": "registry.hub.docker.com",
+  "ImageTag": "latest",
+  "ContainerPort": 3000,
+  "Prefix": "/meal",
+  "Environment": "prod",
+  "Type": "be"
+}
