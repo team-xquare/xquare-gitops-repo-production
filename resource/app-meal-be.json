@@ -2,7 +2,7 @@
   "Name": "meal",
   "Host": "api.xquare.app",
   "ImageRegistry": "registry.hub.docker.com",
-  "ImageTag": "9a75dd259de070a4bfff8d5c52d13a3afa9135a2",
+  "ImageTag": "v0.0.1",
   "ContainerPort": 3000,
   "Prefix": "/meal",
   "Environment": "prod",
