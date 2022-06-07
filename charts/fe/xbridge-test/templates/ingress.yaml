@@ -1,17 +1,25 @@
-apiVersion: projectcontour.io/v1
-kind: HTTPProxy
+apiVersion: networking.k8s.io/v1
+kind: Ingress
 metadata:
   name: {{.Values.app.name}}
-
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    ingress.kubernetes.io/force-ssl-redirect: "true"
+    kubernetes.io/ingress.class: contour
+    kubernetes.io/tls-acme: "true"
 spec:
-  virtualhost:
-    fqdn: {{ .Values.host }}
-    tls:
-      secretName: fe-prod-cert
-
-  routes:
-  - conditions:
-    - prefix: {{.Values.ingress.prefix}}
-    services:
-      - name: {{.Values.app.name}}
-        port: 80
+  tls:
+  - secretName: fe-prod-cert
+    hosts:
+    - webview.xquare.app
+  rules:
+  - host: webview.xquare.app
+    http:
+      paths:
+      - pathType: Prefix
+        path: {{.Values.ingress.prefix}}
+        backend:
+          service:
+            name: {{.Values.app.name}}
+            port:
+              number: 80

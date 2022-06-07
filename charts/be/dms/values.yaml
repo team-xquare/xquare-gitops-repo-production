@@ -12,5 +12,3 @@ container:
 
 ingress:
   prefix: /dms
-
-host: server.xquare.app

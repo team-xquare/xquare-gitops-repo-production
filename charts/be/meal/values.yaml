@@ -12,5 +12,3 @@ container:
 
 ingress:
   prefix: /meal
-
-host: server.xquare.app

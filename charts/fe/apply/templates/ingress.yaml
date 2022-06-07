@@ -11,9 +11,9 @@ spec:
   tls:
   - secretName: fe-prod-cert
     hosts:
-    - {{ .Values.host }}
+    - webview.xquare.app
   rules:
-  - host: {{ .Values.host }}
+  - host: webview.xquare.app
     http:
       paths:
       - pathType: Prefix

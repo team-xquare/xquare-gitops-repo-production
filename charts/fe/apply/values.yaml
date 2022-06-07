@@ -12,5 +12,3 @@ container:
 
 ingress:
   prefix: /apply
-
-host: webview.xquare.app
