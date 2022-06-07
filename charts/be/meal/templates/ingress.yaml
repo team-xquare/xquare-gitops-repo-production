@@ -7,7 +7,7 @@ spec:
   virtualhost:
     fqdn: {{ .Values.host }}
     tls:
-      secretName: {{ .Values.app.name }}
+      secretName: be-prod-cert
 
   routes:
   - conditions:

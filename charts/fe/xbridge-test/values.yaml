@@ -1,4 +1,4 @@
-app: 
+app:
   fullName: xbridge-test-fe-prod
   name: xbridge-test
   type: fe
@@ -13,6 +13,4 @@ container:
 ingress:
   prefix: /xbridge-test
 
-
-host: service.xquare.app
-
+host: webview.xquare.app
