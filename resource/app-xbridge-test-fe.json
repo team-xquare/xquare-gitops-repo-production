@@ -2,7 +2,7 @@
   "Name": "xbridge-test",
   "Host": "service.xquare.app",
   "ImageRegistry": "registry.hub.docker.com",
-  "ImageTag": "0.0.1",
+  "ImageTag": "1.0.0",
   "ContainerPort": 3000,
   "Prefix": "/xbridge-test",
   "Environment": "prod",
