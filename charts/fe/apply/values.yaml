@@ -8,7 +8,7 @@ container:
   port: 3000
   image:
     registry: registry.hub.docker.com
-    version: latest
+    version: 0.0.3
 
 ingress:
   prefix: /apply
