@@ -1,4 +1,4 @@
-app: 
+app:
   fullName: apply-fe-prod
   name: apply
   type: fe
@@ -13,6 +13,4 @@ container:
 ingress:
   prefix: /apply
 
-
-host: service.xquare.app
-
+host: webview.xquare.app

@@ -1,4 +1,4 @@
-app: 
+app:
   fullName: meal-be-prod
   name: meal
   type: be
@@ -13,6 +13,4 @@ container:
 ingress:
   prefix: /meal
 
-
-host: app.xquare.app
-
+host: server.xquare.app
