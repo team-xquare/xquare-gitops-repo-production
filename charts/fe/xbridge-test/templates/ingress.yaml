@@ -1,0 +1,17 @@
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  name: {{.Values.app.name}}
+
+spec:
+  virtualhost:
+    fqdn: {{ .Values.host }}
+    tls:
+      secretName: {{ .Values.app.name }}
+
+  routes:
+  - conditions:
+    - prefix: {{.Values.ingress.prefix}}
+    services:
+      - name: {{.Values.app.name}}
+        port: 80
