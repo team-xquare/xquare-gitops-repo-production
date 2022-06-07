@@ -12,6 +12,10 @@ spec:
   - secretName: be-prod-cert
     hosts:
     - api.xquare.app
+  providers:
+    kubernetesIngress:
+      publishedService:
+        enabled: true
   rules:
   - host: api.xquare.app
     http:
