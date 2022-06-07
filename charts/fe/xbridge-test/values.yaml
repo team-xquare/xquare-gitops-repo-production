@@ -1,0 +1,18 @@
+app: 
+  fullName: xbridge-test-fe-prod
+  name: xbridge-test
+  type: fe
+  env: prod
+
+container:
+  port: 3000
+  image:
+    registry: registry.hub.docker.com
+    version: latest
+
+ingress:
+  prefix: /xbridge-test
+
+
+host: service.xquare.app
+
