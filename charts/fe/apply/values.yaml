@@ -11,7 +11,7 @@ container:
     version: latest
 
 ingress:
-  prefix: /apply
+  prefix: /xbridge-test
 
 
 host: service.xquare.app
