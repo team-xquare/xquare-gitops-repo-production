@@ -1,0 +1,17 @@
+app: 
+  fullName: style-fe-prod
+  name: style
+  type: fe
+  env: prod
+
+
+container:
+  port: 3000
+  image:
+    registry: registry.hub.docker.com
+    version: latest
+
+ingress:
+  host: style.xquare.app
+  prefix: /
+  
