@@ -19,7 +19,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         if: ${{ github.event.client_payload.version }}
         with:
-          commit_message: "🚀 :: Deploy new image ${{ github.event.client_payload.version }}"
+          commit_message: "🚀 :: ${{github.event.client_payload.service_name}}-${{github.event.client_payload.service_type}}: Deploy new image ${{ github.event.client_payload.version }}"
           branch: master
           commit_options: '--no-verify --signoff'
           repository: .
