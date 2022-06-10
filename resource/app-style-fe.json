@@ -2,7 +2,7 @@
   "Name": "style",
   "Host": "style.xquare.app",
   "ImageRegistry": "registry.hub.docker.com",
-  "ImageTag": "latest",
+  "ImageTag": "1.0.0",
   "ContainerPort": 3000,
   "Prefix": "/",
   "Environment": "prod",
