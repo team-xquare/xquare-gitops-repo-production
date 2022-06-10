@@ -12,6 +12,6 @@ container:
     version: latest
 
 ingress:
-  host: api.assets-fe.xquare.app
+  host: assets-fe.xquare.app
   prefix: /
   
