@@ -1,0 +1,10 @@
+{
+  "Name": "assets-fe",
+  "Host": "api.assets-fe.xquare.app",
+  "ImageRegistry": "registry.hub.docker.com",
+  "ImageTag": "latest",
+  "ContainerPort": 3000,
+  "Prefix": "/",
+  "Environment": "prod",
+  "Type": "fe"
+}
