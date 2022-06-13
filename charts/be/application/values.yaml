@@ -9,7 +9,7 @@ container:
   port: 8080
   image:
     registry: registry.hub.docker.com
-    version: v0.0.3
+    version: v0.0.4
 
 ingress:
   host: api.xquare.app
