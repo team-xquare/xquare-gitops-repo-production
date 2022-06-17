@@ -13,5 +13,5 @@ container:
 
 ingress:
   host: api.xquare.app
-  prefix: /
+  prefix: /users
   

@@ -4,7 +4,7 @@
   "ImageRegistry": "registry.hub.docker.com",
   "ImageTag": "latest",
   "ContainerPort": 8080,
-  "Prefix": "/",
+  "Prefix": "/users",
   "Environment": "prod",
   "Type": "be"
 }
