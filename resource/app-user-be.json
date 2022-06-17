@@ -1,0 +1,10 @@
+{
+  "Name": "user",
+  "Host": "api.xquare.app",
+  "ImageRegistry": "registry.hub.docker.com",
+  "ImageTag": "latest",
+  "ContainerPort": 8080,
+  "Prefix": "/",
+  "Environment": "prod",
+  "Type": "be"
+}
