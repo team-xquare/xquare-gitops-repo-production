@@ -1,0 +1,17 @@
+app: 
+  fullName: authority-be-prod
+  name: authority
+  type: be
+  env: prod
+
+
+container:
+  port: 8080
+  image:
+    registry: registry.hub.docker.com
+    version: latest
+
+ingress:
+  host: api.xquare.app
+  prefix: /authorities
+  
