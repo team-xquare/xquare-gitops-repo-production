@@ -1,0 +1,10 @@
+{
+  "Name": "oauth",
+  "Host": "api.xquare.app",
+  "ImageRegistry": "registry.hub.docker.com",
+  "ImageTag": "latest",
+  "ContainerPort": 8080,
+  "Prefix": "/oauth2",
+  "Environment": "prod",
+  "Type": "be"
+}
