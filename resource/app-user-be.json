@@ -2,7 +2,7 @@
   "Name": "user",
   "Host": "api.xquare.app",
   "ImageRegistry": "registry.hub.docker.com",
-  "ImageTag": "latest",
+  "ImageTag": "v0.0.1",
   "ContainerPort": 8080,
   "Prefix": "/users",
   "Environment": "prod",
