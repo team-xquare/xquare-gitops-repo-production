@@ -1,7 +1,7 @@
 {
   "Name": "apply",
   "Host": "service.xquare.app",
-  "ImageRegistry": "registry.hub.docker.com",
+  "ImageRegistry": "718436679669.dkr.ecr.ap-northeast-2.amazonaws.com",
   "ImageTag": "0.0.2",
   "ContainerPort": 3000,
   "Prefix": "/apply",

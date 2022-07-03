@@ -1,7 +1,7 @@
 {
   "Name": "user",
   "Host": "api.xquare.app",
-  "ImageRegistry": "registry.hub.docker.com",
+  "ImageRegistry": "718436679669.dkr.ecr.ap-northeast-2.amazonaws.com",
   "ImageTag": "v0.0.3",
   "ContainerPort": 8080,
   "Prefix": "/users",

@@ -7,7 +7,7 @@ app:
 container:
   port: 8080
   image:
-    registry: registry.hub.docker.com
+    registry: 718436679669.dkr.ecr.ap-northeast-2.amazonaws.com
     version: v0.1.3-alpha
 
 ingress:

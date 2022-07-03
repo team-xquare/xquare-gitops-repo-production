@@ -1,7 +1,7 @@
 {
   "Name": "authority",
   "Host": "api.xquare.app",
-  "ImageRegistry": "registry.hub.docker.com",
+  "ImageRegistry": "718436679669.dkr.ecr.ap-northeast-2.amazonaws.com",
   "ImageTag": "latest",
   "ContainerPort": 8080,
   "Prefix": "/authorities",

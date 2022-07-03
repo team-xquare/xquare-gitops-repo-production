@@ -1,7 +1,7 @@
 {
   "Name": "style",
   "Host": "style.xquare.app",
-  "ImageRegistry": "registry.hub.docker.com",
+  "ImageRegistry": "718436679669.dkr.ecr.ap-northeast-2.amazonaws.com",
   "ImageTag": "1.0.0",
   "ContainerPort": 3000,
   "Prefix": "/",
