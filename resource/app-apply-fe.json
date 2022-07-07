@@ -2,7 +2,7 @@
   "Name": "apply",
   "Host": "service.xquare.app",
   "ImageRegistry": "718436679669.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "0.0.6",
+  "ImageTag": "0.0.7",
   "ContainerPort": 3000,
   "Prefix": "/apply",
   "Environment": "prod",
