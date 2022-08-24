@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{.Values.app.name}}
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-{{.Values.app.env}}
+    ingress.kubernetes.io/force-ssl-redirect: "true"
+    kubernetes.io/ingress.class: contour
+    kubernetes.io/tls-acme: "true"
+spec:
+  tls:
+  - secretName: {{.Values.app.type}}-{{.Values.app.env}}-cert
+    hosts:
+    - {{.Values.ingress.host}}
+
+
+  rules:
+  - host: {{.Values.ingress.host}}
+    http:
+      paths:
+      - pathType: Prefix
+        path: {{.Values.ingress.prefix}}
+        backend:
+          service:
+            name: {{.Values.app.name}}
+            port:
+              number: 80
