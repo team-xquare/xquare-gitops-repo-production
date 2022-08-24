@@ -1,0 +1,9 @@
+apiVersion: v2
+name: cloud-config-be-prod
+description: A Helm chart for cloud-config be
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.0"
