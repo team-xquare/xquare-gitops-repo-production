@@ -1,0 +1,17 @@
+app: 
+  fullName: cloud-config-be-prod
+  name: cloud-config
+  type: be
+  env: prod
+
+
+container:
+  port: 8080
+  image:
+    registry: 718436679669.dkr.ecr.ap-northeast-2.amazonaws.com
+    version: latest
+
+ingress:
+  host: api.xquare.app
+  prefix: cloud-config
+  
