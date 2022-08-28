@@ -11,4 +11,4 @@ container:
     version: v1.0.1
 
 ingress:
-  prefix: /meal
+  prefix: /meals
