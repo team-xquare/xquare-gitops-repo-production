@@ -1,0 +1,9 @@
+apiVersion: projectcontour.io/v1alpha1
+kind: ExtensionService
+metadata:
+  name: { { .Values.app.name } }
+  namespace: { { .Values.app.name } }
+spec:
+  services:
+    - name: { { .Values.app.name } }
+      port: 9443

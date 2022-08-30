@@ -1,0 +1,11 @@
+app:
+  fullName: contour-middleware-be-stag
+  name: contour-middleware
+  type: be
+  env: stag
+
+container:
+  port: 9443
+  image:
+    registry: 718436679669.dkr.ecr.ap-northeast-2.amazonaws.com
+    version: latest

@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: { { .Values.app.name } }
+  namespace: { { .Values.app.name } }
+spec:
+  dnsNames:
+    - { { .Values.app.name } }
+  secretName: contour-middleware-cert
+  issuerRef:
+    name: selfsigned
+    kind: ClusterIssuer

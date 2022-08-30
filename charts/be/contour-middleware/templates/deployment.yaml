@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.app.name }}
+  namespace: {{ .Values.app.name }}
+  labels:
+    app: {{ .Values.app.name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ .Values.app.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.app.name }}
+    spec:
+      containers:
+        - name:  {{ .Values.app.name }}    
+          image: {{ .Values.container.image.registry }}/{{.Values.app.name}}-{{.Values.app.type}}:{{ .Values.container.image.version }}
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: {{ .Values.container.port}}
+          volumeMounts:
+            - mountPath: /tls
+              name: tls
+              readOnly: true
+      volumes:
+        - name: tls
+          secret:
+            secretName: contour-middleware-cert
