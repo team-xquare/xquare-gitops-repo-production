@@ -19,4 +19,4 @@ spec:
           image: {{ .Values.container.image.registry }}/{{.Values.app.name}}-{{.Values.app.type}}:{{ .Values.container.image.version }}
           imagePullPolicy: Always
           ports:
-            - containerPort: {{ .Values.container.port}}
+            - containerPort: {{ .Values.container.port }}
