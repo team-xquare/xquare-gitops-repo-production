@@ -1,0 +1,10 @@
+{
+  "Name": "contour-middleware",
+  "Host": "",
+  "ImageRegistry": "718436679669.dkr.ecr.ap-northeast-2.amazonaws.com",
+  "ImageTag": "ce938b4664f6c54deb4e42ea21e7966059a612df",
+  "ContainerPort": 9443,
+  "Prefix": "",
+  "Environment": "prod",
+  "Type": "be"
+}
