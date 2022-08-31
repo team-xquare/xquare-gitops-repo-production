@@ -1,20 +1,20 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: contour-middleware-be-stag
+  name: contour-middleware-be-prod
   namespace: argocd
 
 spec:
   destination:
-    server: { { .Values.spec.destination.server } }
-    namespace: be-stag
+    server: {{ .Values.spec.destination.server }}
+    namespace: be-prod
 
-  project: { { .Values.spec.project } }
+  project: {{ .Values.spec.project }}
 
   source:
     path: charts/be/contour-middleware
-    repoURL: { { .Values.spec.source.repoURL } }
-    targetRevision: { { .Values.spec.source.targetRevision } }
+    repoURL: {{ .Values.spec.source.repoURL }}
+    targetRevision: {{ .Values.spec.source.targetRevision }}
 
   syncPolicy:
     automated:
