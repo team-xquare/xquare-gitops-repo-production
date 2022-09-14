@@ -1,0 +1,17 @@
+app: 
+  fullName: admin-fe-prod
+  name: admin
+  type: fe
+  env: prod
+
+
+container:
+  port: 3000
+  image:
+    registry: 718436679669.dkr.ecr.ap-northeast-2.amazonaws.com
+    version: latest
+
+ingress:
+  host: admin.xquare.app
+  prefix: /
+  
