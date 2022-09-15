@@ -9,7 +9,7 @@ container:
   port: 3000
   image:
     registry: 718436679669.dkr.ecr.ap-northeast-2.amazonaws.com
-    version: latest
+    version: 1.0.2
 
 ingress:
   host: admin.xquare.app
