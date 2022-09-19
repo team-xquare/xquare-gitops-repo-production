@@ -1,10 +1,10 @@
 {
-  "Name": "xbridge-test",
-  "Host": "service.xquare.app",
+  "Name": "dormitory-admin",
+  "Host": "admin.xquare.app",
   "ImageRegistry": "718436679669.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "1.1.11",
+  "ImageTag": "1.0.3",
   "ContainerPort": 3000,
-  "Prefix": "/xbridge-test",
+  "Prefix": "/",
   "Environment": "prod",
   "Type": "fe"
 }

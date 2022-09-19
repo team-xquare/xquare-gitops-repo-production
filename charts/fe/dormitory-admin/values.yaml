@@ -1,15 +1,17 @@
-app:
-  fullName: apply-fe-prod
-  name: apply
+app: 
+  fullName: dormitory-admin-fe-prod
+  name: dormitory-admin
   type: fe
   env: prod
+
 
 container:
   port: 3000
   image:
     registry: 718436679669.dkr.ecr.ap-northeast-2.amazonaws.com
-    version: 0.0.11
-
+    version: 1.0.3
 
 ingress:
-  prefix: /apply
+  host: admin.xquare.app
+  prefix: /
+  
