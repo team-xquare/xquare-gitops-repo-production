@@ -11,4 +11,5 @@ container:
     version: v0.1.5
 
 ingress:
+  host: api.xquare.app
   prefix: /dms

@@ -11,4 +11,5 @@ container:
     version: v1.0.1
 
 ingress:
+  host: api.xquare.app
   prefix: /meals
