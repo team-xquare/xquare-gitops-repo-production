@@ -2,7 +2,7 @@ apiVersion: projectcontour.io/v1alpha1
 kind: ExtensionService
 metadata:
   name: {{ .Values.app.name }}
-  namespace: {{ .Values.app.name }}
+  namespace: {{ .Values.app.type }}-{{ .Values.app.env }}
 spec:
   services:
     - name: {{ .Values.app.name }}

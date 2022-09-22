@@ -1,8 +1,8 @@
 app:
-  fullName: contour-middleware-be-stag
+  fullName: contour-middleware-be-prod
   name: contour-middleware
   type: be
-  env: stag
+  env: prod
 
 container:
   port: 9443
