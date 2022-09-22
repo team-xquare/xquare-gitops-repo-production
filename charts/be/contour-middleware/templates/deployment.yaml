@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ .Values.app.name }}
-  namespace: {{ .Values.app.name }}
+  namespace: {{ .Values.app.type }}-{{ .Values.app.env }}
   labels:
     app: {{ .Values.app.name }}
 spec:

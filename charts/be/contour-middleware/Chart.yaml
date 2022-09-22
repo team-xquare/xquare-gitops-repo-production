@@ -1,5 +1,5 @@
 apiVersion: v2
-name: contour-middleware-be-stag
+name: contour-middleware-be-prod
 description: A Helm chart for contour-middleware be
 
 type: application
