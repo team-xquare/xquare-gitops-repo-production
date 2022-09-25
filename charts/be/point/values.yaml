@@ -1,0 +1,17 @@
+app: 
+  fullName: point-be-prod
+  name: point
+  type: be
+  env: prod
+
+
+container:
+  port: 3000
+  image:
+    registry: 718436679669.dkr.ecr.ap-northeast-2.amazonaws.com
+    version: latest
+
+ingress:
+  host: stag-api.xquare.app
+  prefix: /points
+  
