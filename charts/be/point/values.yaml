@@ -12,6 +12,6 @@ container:
     version: ef63636d53226858af8e665e6b5bbf79c314c7a0
 
 ingress:
-  host: stag-api.xquare.app
+  host: api.xquare.app
   prefix: /points
   
