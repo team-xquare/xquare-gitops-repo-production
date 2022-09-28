@@ -1,9 +1,0 @@
-apiVersion: v2
-name: point-be-prod
-description: A Helm chart for point be
-
-type: application
-
-version: 0.1.0
-
-appVersion: "1.0"
