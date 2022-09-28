@@ -9,4 +9,4 @@ spec:
         - prefix: {{ .Values.ingress.prefix }}
       services:
         - name: {{ .Values.app.name }}
-          port: 3000
+          port: 80
