@@ -2,7 +2,7 @@
   "Name": "dms",
   "Host": "api.xquare.app",
   "ImageRegistry": "718436679669.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "v0.1.6",
+  "ImageTag": "v0.1.7",
   "ContainerPort": 8080,
   "Prefix": "/dms",
   "Environment": "prod",
