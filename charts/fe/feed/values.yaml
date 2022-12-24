@@ -1,0 +1,15 @@
+app:
+  fullName: feed-fe-prod
+  name: feed
+  type: fe
+  env: prod
+
+container:
+  port: 3000
+  image:
+    registry: 718436679669.dkr.ecr.ap-northeast-2.amazonaws.com
+    version: 0.0.1
+
+
+ingress:
+  prefix: /feed

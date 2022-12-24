@@ -1,0 +1,9 @@
+apiVersion: v2
+name: feed-fe-prod
+description: A Helm chart for feed fe
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.0"
