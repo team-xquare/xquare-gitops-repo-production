@@ -8,7 +8,7 @@ app:
 container:
   port: 3000
   image:
-    registry: 718436679669.dkr.ecr.ap-northeast-2.amazonaws.com
+    registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
     version: ef63636d53226858af8e665e6b5bbf79c314c7a0
 
 ingress:
