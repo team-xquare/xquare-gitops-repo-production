@@ -1,10 +1,10 @@
 {
-  "Name": "point",
+  "Name": "notification",
   "Host": "api.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "latest",
+  "ImageTag": "v0.0.3",
   "ContainerPort": 8080,
-  "Prefix": "/points",
+  "Prefix": "/cloud-config",
   "Environment": "prod",
   "Type": "be"
 }

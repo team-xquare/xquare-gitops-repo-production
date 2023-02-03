@@ -1,0 +1,9 @@
+apiVersion: v2
+name: notification-be-prod
+description: A Helm chart for notification be
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.0"
