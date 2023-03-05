@@ -2,7 +2,7 @@
   "Name": "dormitory-admin",
   "Host": "admin.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "1.0.5",
+  "ImageTag": "1.0.6",
   "ContainerPort": 3000,
   "Prefix": "/",
   "Environment": "prod",
