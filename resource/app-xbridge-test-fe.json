@@ -2,7 +2,7 @@
   "Name": "xbridge-test",
   "Host": "service.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "1.1.25",
+  "ImageTag": "1.1.26",
   "ContainerPort": 3000,
   "Prefix": "/xbridge-test",
   "Environment": "prod",
