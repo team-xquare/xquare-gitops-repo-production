@@ -2,7 +2,7 @@
   "Name": "meal",
   "Host": "api.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "v1.0.5",
+  "ImageTag": "v1.0.6",
   "ContainerPort": 3000,
   "Prefix": "/meals",
   "Environment": "prod",
