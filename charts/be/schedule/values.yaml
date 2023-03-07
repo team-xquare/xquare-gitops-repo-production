@@ -1,16 +1,15 @@
-app: 
-  fullName: point-be-prod
-  name: point
+app:
+  fullName: schedule-be-prod
+  name: schedule
   type: be
   env: prod
 
 container:
-  port: 3000
+  port: 8080
   image:
     registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
-    version: ef63636d53226858af8e665e6b5bbf79c314c7a0
+    version:
 
 ingress:
   host: api.xquare.app
-  prefix: /points
-  
+  prefix: /schedules

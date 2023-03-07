@@ -1,0 +1,10 @@
+{
+  "Name": "timetable",
+  "Host": "api.xquare.app",
+  "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
+  "ImageTag": "",
+  "ContainerPort": 8080,
+  "Prefix": "/timetables",
+  "Environment": "prod",
+  "Type": "be"
+}
