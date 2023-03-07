@@ -1,6 +1,6 @@
 app: 
-  fullName: dormitory-admin-fe-prod
-  name: dormitory-admin
+  fullName: today-director-fe-prod
+  name: today-director
   type: fe
   env: prod
 
@@ -8,9 +8,7 @@ container:
   port: 3000
   image:
     registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
-    version: 1.0.20
+    version:
 
 ingress:
-  host: admin.xquare.app
   prefix: /
-  
