@@ -1,0 +1,10 @@
+{
+  "Name": "contour-middleware-test",
+  "Host": "api.xquare.app",
+  "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
+  "ImageTag": "",
+  "ContainerPort": 8080,
+  "Prefix": "/contour-middleware-test",
+  "Environment": "prod",
+  "Type": "be"
+}

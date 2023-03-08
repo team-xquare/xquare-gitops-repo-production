@@ -1,0 +1,16 @@
+app: 
+  fullName: contour-middleware-test-be-prod
+  name: contour-middleware-test
+  type: be
+  env: prod
+
+container:
+  port: 8080
+  image:
+    registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
+    version: 
+
+ingress:
+  host: api.xquare.app
+  prefix: /contour-middleware-test
+  
