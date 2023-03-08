@@ -2,7 +2,7 @@
   "Name": "attachment",
   "Host": "api.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "v.1.0.0",
+  "ImageTag": "v1.0.1",
   "ContainerPort": 8080,
   "Prefix": "/attachment",
   "Environment": "prod",
