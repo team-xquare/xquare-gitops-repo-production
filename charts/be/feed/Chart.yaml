@@ -1,6 +1,6 @@
 apiVersion: v2
-name: dms-be-prod
-description: A Helm chart for dms be
+name: feed-be-prod
+description: A Helm chart for feed be
 
 type: application
 

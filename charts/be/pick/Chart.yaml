@@ -1,6 +1,6 @@
 apiVersion: v2
-name: meal-be-prod
-description: A Helm chart for meal be
+name: pick-be-prod
+description: A Helm chart for pick be
 
 type: application
 

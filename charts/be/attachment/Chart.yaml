@@ -1,6 +1,6 @@
 apiVersion: v2
-name: authority-be-prod
-description: A Helm chart for authority be
+name: attachment-be-prod
+description: A Helm chart for attachment be
 
 type: application
 

@@ -1,6 +1,6 @@
 apiVersion: v2
-name: user-be-prod
-description: A Helm chart for user be
+name: schedule-be-prod
+description: A Helm chart for schedule be
 
 type: application
 
