@@ -4,7 +4,7 @@
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
   "ImageTag": "v1.0.0",
   "ContainerPort": 8080,
-  "Prefix": "/authorities",
+  "Prefix": "/feeds",
   "Environment": "prod",
   "Type": "be"
 }
