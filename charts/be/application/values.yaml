@@ -12,4 +12,4 @@ container:
 
 ingress:
   host: api.xquare.app
-  prefix: /authorities
+  prefix: /applications
