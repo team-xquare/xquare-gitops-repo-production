@@ -2,7 +2,7 @@
   "Name": "application",
   "Host": "api.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "v1.0.6",
+  "ImageTag": "v1.0.7",
   "ContainerPort": 8080,
   "Prefix": "/applications",
   "Environment": "prod",
