@@ -5,7 +5,7 @@ app:
   env: prod
 
 container:
-  port: 3000
+  port: 8080
   image:
     registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
     version: v1.0.0
