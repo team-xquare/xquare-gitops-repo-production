@@ -2,7 +2,7 @@
   "Name": "feed",
   "Host": "service.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "0.0.36",
+  "ImageTag": "0.0.37",
   "ContainerPort": 3000,
   "Prefix": "/feed",
   "Environment": "prod",
