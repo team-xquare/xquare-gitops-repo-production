@@ -9,7 +9,7 @@ container:
   port: 8080
   image:
     registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
-    version: v0.0.5
+    version: v0.0.6
 
 ingress:
   host: api.xquare.app
