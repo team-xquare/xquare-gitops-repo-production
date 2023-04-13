@@ -2,7 +2,7 @@
   "Name": "authority",
   "Host": "api.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "v1.0.3",
+  "ImageTag": "v1.0.4",
   "ContainerPort": 8080,
   "Prefix": "/authorities",
   "Environment": "prod",
