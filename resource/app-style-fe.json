@@ -1,10 +1,10 @@
-{
-  "Name": "style",
-  "Host": "style.xquare.app",
-  "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "1.0.0",
-  "ContainerPort": 3000,
-  "Prefix": "/",
-  "Environment": "prod",
-  "Type": "fe"
-}
+//{
+//  "Name": "style",
+//  "Host": "style.xquare.app",
+//  "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
+//  "ImageTag": "1.0.0",
+//  "ContainerPort": 3000,
+//  "Prefix": "/",
+//  "Environment": "prod",
+//  "Type": "fe"
+//}

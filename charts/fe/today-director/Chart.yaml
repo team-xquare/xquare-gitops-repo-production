@@ -1,9 +1,9 @@
-apiVersion: v2
-name: dormitory-admin-fe-prod
-description: A Helm chart for dormitory-admin fe
-
-type: application
-
-version: 0.1.0
-
-appVersion: "1.0"
+#apiVersion: v2
+#name: dormitory-admin-fe-prod
+#description: A Helm chart for dormitory-admin fe
+#
+#type: application
+#
+#version: 0.1.0
+#
+#appVersion: "1.0"
