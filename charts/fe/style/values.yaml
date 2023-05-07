@@ -1,15 +1,15 @@
-app:
-  fullName: style-fe-prod
-  name: style
-  type: fe
-  env: prod
-
-container:
-  port: 3000
-  image:
-    registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
-    version: 1.0.0
-
-ingress:
-  host: style.xquare.app
-  prefix: /
+#app:
+#  fullName: style-fe-prod
+#  name: style
+#  type: fe
+#  env: prod
+#
+#container:
+#  port: 3000
+#  image:
+#    registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
+#    version: 1.0.0
+#
+#ingress:
+#  host: style.xquare.app
+#  prefix: /
