@@ -2,7 +2,7 @@
   "Name": "user",
   "Host": "api.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "v1.1.0",
+  "ImageTag": "v1.1.1",
   "ContainerPort": 8080,
   "Prefix": "/users",
   "Environment": "prod",
