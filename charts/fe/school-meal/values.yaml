@@ -1,0 +1,14 @@
+app:
+  fullName: school-meal-fe-prod
+  name: school-meal
+  type: fe
+  env: prod
+
+container:
+  port: 3000
+  image:
+    registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
+    version: 
+
+ingress:
+  prefix: /school-meal

@@ -1,0 +1,9 @@
+apiVersion: v2
+name: school-meal-fe-prod
+description: A Helm chart for school-meal fe
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.0"
