@@ -1,0 +1,15 @@
+app: 
+  fullgit: git-be-prod
+  name: git
+  type: be
+  env: prod
+
+container:
+  port: 8080
+  image:
+    registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com/git-be
+    version: 
+
+ingress:
+  host: api.xquare.app
+  prefix: /gits

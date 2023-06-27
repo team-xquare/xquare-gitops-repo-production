@@ -1,0 +1,9 @@
+apiVersion: v2
+name: git-be-prod
+description: a helm chart for git be
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.0"
