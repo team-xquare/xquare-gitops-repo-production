@@ -7,7 +7,7 @@ app:
 container:
   port: 8080
   image:
-    registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com/git-be
+    registry: 067347400935.dkr.ecr.ap-northeast-2.amazonaws.com
     version: 
 
 ingress:
