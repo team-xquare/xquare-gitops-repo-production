@@ -2,7 +2,7 @@
   "Name": "point",
   "Host": "api.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "v1.1.8",
+  "ImageTag": "v1.1.9",
   "ContainerPort": 8080,
   "Prefix": "/points",
   "Environment": "prod",
