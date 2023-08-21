@@ -2,7 +2,7 @@
 //  "Name": "today-director",
 //  "Host": "service.xquare.app",
 //  "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-//  "ImageTag": "0.0.2",
+//  "ImageTag": "0.0.3",
 //  "ContainerPort": 3000,
 //  "Prefix": "/today-director",
 //  "Environment": "prod",
