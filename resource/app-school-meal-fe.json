@@ -2,7 +2,7 @@
   "Name": "school-meal",
   "Host": "service.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "0.0.3",
+  "ImageTag": "0.0.5",
   "ContainerPort": 3000,
   "Prefix": "/school-meal",
   "Environment": "prod",
