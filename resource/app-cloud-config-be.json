@@ -2,7 +2,7 @@
   "Name": "cloud-config",
   "Host": "api.xquare.app",
   "ImageRegistry": "067347400935.dkr.ecr.ap-northeast-2.amazonaws.com",
-  "ImageTag": "v0.1.0",
+  "ImageTag": "v0.1.1",
   "ContainerPort": 8080,
   "Prefix": "/cloud-config",
   "Environment": "prod",
